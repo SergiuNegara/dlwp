@@ -2,12 +2,12 @@
 #================================================================================
 # dlwp.sh
 #
-# version 1.10
+# version 1.11
 #
 # A little script to download the latest WordPress version.
 #
 # by Sergiu Negara <contact@n-e-s.info>
-# 
+#
 # Changelog:
 #
 # Version 1.0
@@ -16,10 +16,13 @@
 # Version 1.10
 # - Download via curl (wget is not available by default)
 #
+# Version 1.11
+# - Add curl -L flag so it follows redirects
+#
 #================================================================================
 
 echo " - Downloading..."
-curl -sO "http://wordpress.org/latest.tar.gz"
+curl -sOL "http://wordpress.org/latest.tar.gz"
 
 echo " - Unpacking..."
 tar -xzf latest.tar.gz
