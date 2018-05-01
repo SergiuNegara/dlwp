@@ -6,7 +6,7 @@
 #
 # A little script to download the latest WordPress version.
 #
-# by Sergiu Negara <contact@n-e-s.info>
+# by Sergiu Negara <sergiu@negara.pro>
 #
 # Changelog:
 #
